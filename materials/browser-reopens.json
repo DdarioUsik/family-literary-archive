@@ -1,0 +1,24 @@
+[
+  {
+    "id": "B02",
+    "url": "https://rusneb.ru/catalog/000200_000018_RU_NLR_A1SV_49855/",
+    "checked_at": "2026-10-26T09:38:00+00:00",
+    "method": "web.search: exact NEB catalog ID returned full indexed primary record; direct web.open remains 403",
+    "result": "verified",
+    "final_url": "https://rusneb.ru/catalog/000200_000018_RU_NLR_A1SV_49855/",
+    "http_status": null,
+    "content_type": "text/html",
+    "support_excerpt": "Search result for exact record 000200_000018_RU_NLR_A1SV_49855 returned the full bibliographic text: Крошки сороконожки, Вера Инбер и В.Типот; Москва/Ленинград, Радуга, 1925; illustrations V.Tvardovsky; library RNB. The catalog page itself returned 403 to web.open."
+  },
+  {
+    "id": "M15",
+    "url": "https://help.acx.com/s/article/audible-s-new-royalty-model",
+    "checked_at": "2026-10-26T09:38:00+00:00",
+    "method": "web.open: official ACX Help Center article opened and substantive text read",
+    "result": "verified",
+    "final_url": "https://help.acx.com/s/article/audible-s-new-royalty-model",
+    "http_status": null,
+    "content_type": "text/html",
+    "support_excerpt": "Official article: offers after May 26, 2026 follow the new model; 50% exclusive and 30% non-exclusive rates; membership royalties use Member Value multiplied by the contractual rate, with Member Value shown on earnings statements. A la carte calculation differs."
+  }
+]

@@ -1,0 +1,912 @@
+[
+  {
+    "id": "B01",
+    "url": "https://ru.wikipedia.org/wiki/%D0%A2%D0%B8%D0%BF%D0%BE%D1%82,_%D0%92%D0%B8%D0%BA%D1%82%D0%BE%D1%80_%D0%AF%D0%BA%D0%BE%D0%B2%D0%BB%D0%B5%D0%B2%D0%B8%D1%87",
+    "tier": "secondary_biography",
+    "claim_ids": [
+      "B01",
+      "V01",
+      "V02",
+      "V03",
+      "V04",
+      "V05",
+      "V06",
+      "V07",
+      "V08",
+      "V09",
+      "V10",
+      "V11",
+      "V12",
+      "V13",
+      "V21",
+      "V22",
+      "V23",
+      "V25",
+      "V26"
+    ],
+    "relevance_note": "Биографический список работ Типота. Не заменяет архивную опись; первичные подтверждения отдельными источниками.",
+    "expected": [
+      "Типот",
+      "Мечты"
+    ]
+  },
+  {
+    "id": "B02",
+    "url": "https://rusneb.ru/catalog/000200_000018_RU_NLR_A1SV_49855/",
+    "tier": "primary_library",
+    "claim_ids": [
+      "B02",
+      "V19"
+    ],
+    "relevance_note": "Крошки сороконожки: издание 1925, Инбер/Типот, художник Твардовский.",
+    "expected": [
+      "1925",
+      "Типот"
+    ]
+  },
+  {
+    "id": "B03",
+    "url": "https://fantlab.ru/edition200070",
+    "tier": "specialist_bibliography",
+    "claim_ids": [
+      "B03",
+      "N01",
+      "N02",
+      "N03",
+      "N14",
+      "N15",
+      "N16",
+      "N17",
+      "N18",
+      "N19",
+      "N20",
+      "N21",
+      "N22",
+      "N23",
+      "N24",
+      "N25",
+      "N26",
+      "N27",
+      "N28",
+      "N29",
+      "N30",
+      "N31",
+      "N32",
+      "N33",
+      "N34",
+      "N35",
+      "N36",
+      "N37",
+      "N38",
+      "N39",
+      "N40",
+      "N41",
+      "N42",
+      "N43",
+      "K07"
+    ],
+    "relevance_note": "Оглавление сборника 1970: 33 произведения; первая публикация каждого по нему не устанавливается.",
+    "expected": [
+      "Мышиная возня",
+      "Какого цвета"
+    ]
+  },
+  {
+    "id": "B04",
+    "url": "https://fantlab.ru/edition148072",
+    "tier": "specialist_bibliography",
+    "claim_ids": [
+      "B04",
+      "N04"
+    ],
+    "relevance_note": "Осторожно, волшебное!: издание 1981; художник отдельный автор.",
+    "expected": [
+      "1981",
+      "Фадеева"
+    ]
+  },
+  {
+    "id": "B05",
+    "url": "https://fantlab.ru/work69891",
+    "tier": "specialist_bibliography",
+    "claim_ids": [
+      "B05",
+      "N05"
+    ],
+    "relevance_note": "Повесть Захвати с собой улыбку на дорогу: 1965, библиография/читательский след.",
+    "expected": [
+      "1965",
+      "Соколова"
+    ]
+  },
+  {
+    "id": "B06",
+    "url": "https://fantlab.ru/work71229",
+    "tier": "specialist_bibliography",
+    "claim_ids": [
+      "B06",
+      "N07"
+    ],
+    "relevance_note": "Дезидерата: 1975, венгерский перевод 1980; след издания, не объём продаж.",
+    "expected": [
+      "1980",
+      "Херенди"
+    ]
+  },
+  {
+    "id": "B07",
+    "url": "https://archivsf.narod.ru/1916/natalya_sokolova/index.htm",
+    "tier": "specialist_bibliography",
+    "claim_ids": [
+      "B07",
+      "N01",
+      "N02",
+      "N04",
+      "N05",
+      "N06",
+      "N07",
+      "N08",
+      "N09",
+      "N10",
+      "N11",
+      "N12",
+      "N14",
+      "K01",
+      "K02",
+      "K03",
+      "K04",
+      "K05",
+      "K06",
+      "K08"
+    ],
+    "relevance_note": "Биография/периодика Натальи Соколовой; конфликт 1964/1965 отдельно.",
+    "expected": [
+      "2002",
+      "Плазма"
+    ]
+  },
+  {
+    "id": "B08",
+    "url": "https://rgali.ru/fund/8191",
+    "tier": "primary_archive",
+    "claim_ids": [
+      "B08",
+      "V02",
+      "V12",
+      "V20"
+    ],
+    "relevance_note": "Фонд Дунаевского: Вольный ветер, Сын клоуна, статья Дурная традиция.",
+    "expected": [
+      "Типот",
+      "Дурная"
+    ]
+  },
+  {
+    "id": "B09",
+    "url": "https://www.rgali.ru/storage-unit?fundId=7678",
+    "tier": "primary_archive",
+    "claim_ids": [
+      "B09",
+      "V14"
+    ],
+    "relevance_note": "Фонд Адуева: обозрение Спокойно — снимаю, соавторы, 1924.",
+    "expected": [
+      "Типот",
+      "1924"
+    ]
+  },
+  {
+    "id": "B10",
+    "url": "https://rgali.ru/storage-unit?fundId=6684&opisId=6260&systemId=165777",
+    "tier": "primary_archive",
+    "claim_ids": [
+      "B10",
+      "V15"
+    ],
+    "relevance_note": "Звезда экрана: архивное дело Минкультуры 1955–1956.",
+    "expected": [
+      "Звезда экрана",
+      "Типот"
+    ]
+  },
+  {
+    "id": "B11",
+    "url": "https://www.rgali.ru/storage-unit?fundId=6554",
+    "tier": "primary_archive",
+    "claim_ids": [
+      "B11",
+      "V16"
+    ],
+    "relevance_note": "Антракт без антракта: Бонди, Ленч, Типот, около 1938.",
+    "expected": [
+      "Антракт",
+      "Типот"
+    ]
+  },
+  {
+    "id": "B12",
+    "url": "https://rgali.ru/storage-unit?fundId=8873&opisId=12210&systemId=309466",
+    "tier": "primary_archive",
+    "claim_ids": [
+      "B12",
+      "V17"
+    ],
+    "relevance_note": "Любовь до востребования: посмертная архивная версия 1967, Рубан/Типот.",
+    "expected": [
+      "1967",
+      "Типот"
+    ]
+  },
+  {
+    "id": "B13",
+    "url": "https://fantlab.ru/work1828197",
+    "tier": "specialist_bibliography",
+    "claim_ids": [
+      "B13",
+      "N13"
+    ],
+    "relevance_note": "Откровенный разговор: очерк 1954; атрибуция требует сверки газетного оригинала.",
+    "expected": [
+      "1954",
+      "Соколова"
+    ]
+  },
+  {
+    "id": "B15",
+    "url": "https://omsklib.ru/files/news/fondy/abonem_fond.pdf",
+    "tier": "primary_library",
+    "claim_ids": [
+      "B15",
+      "P01",
+      "P02"
+    ],
+    "relevance_note": "Помоги себе сам: полное имя Соколова и разделение частей между авторами.",
+    "expected": [
+      "Павел Павлович",
+      "Массаж, еще"
+    ]
+  },
+  {
+    "id": "B16",
+    "url": "https://libtomcat.knute.edu.ua/library/TopicDescription?topic_id=5511",
+    "tier": "primary_library",
+    "claim_ids": [
+      "B16",
+      "P03",
+      "P06"
+    ],
+    "relevance_note": "Победа над бессонницей вып.1 и Японский массаж шиацу, 1989/1991.",
+    "expected": [
+      "Соколов",
+      "шиацу"
+    ]
+  },
+  {
+    "id": "B17",
+    "url": "https://library.kgma.kg/en/lib/page/3/?e_udc=615.81&e_viewdb=KGMA",
+    "tier": "primary_library",
+    "claim_ids": [
+      "B17",
+      "P04"
+    ],
+    "relevance_note": "Победа над бессонницей вып.2: библиотека медицинской академии.",
+    "expected": [
+      "Соколов",
+      "1989"
+    ]
+  },
+  {
+    "id": "B18",
+    "url": "https://kogpa.edu.ua/images/main_dir/library/bibliovisnyk/60.pdf",
+    "tier": "primary_library",
+    "claim_ids": [
+      "B18",
+      "P05"
+    ],
+    "relevance_note": "Библиотечный список: Гипотонию можно одолеть,1989,48 с.; инициалы П. Соколов, связь с врачом поддержана предыдущей библиографией.",
+    "expected": [
+      "Гипотонию"
+    ]
+  },
+  {
+    "id": "B19",
+    "url": "https://doctoryeti.ai/doctor/sokolova-nadezhda-pavlovna-moskva",
+    "tier": "secondary_discovery",
+    "claim_ids": [
+      "B19",
+      "Q01"
+    ],
+    "relevance_note": "Кандидат-однофамилец Надежды Павловны: физиотерапевт. Связь с семьёй/произведения не установлены.",
+    "expected": [
+      "Павловна",
+      "физиотерапевт"
+    ]
+  },
+  {
+    "id": "L01",
+    "url": "https://www.wipo.int/en/web/copyright/protection",
+    "tier": "official_explainer",
+    "claim_ids": [
+      "L01"
+    ],
+    "relevance_note": "Охрана выражения, оригинальность, автоматическая защита; идеи/методы отдельно.",
+    "expected": [
+      "ideas",
+      "expression"
+    ]
+  },
+  {
+    "id": "L02",
+    "url": "https://www.wipo.int/en/web/copyright/faq-copyright",
+    "tier": "official_explainer",
+    "claim_ids": [
+      "L02"
+    ],
+    "relevance_note": "Имущественные/личные права, перевод, адаптация, территориальность.",
+    "expected": [
+      "translation",
+      "adaptation"
+    ]
+  },
+  {
+    "id": "L03",
+    "url": "https://www.copyright.gov/help/faq/faq-who.html",
+    "tier": "official_explainer",
+    "claim_ids": [
+      "L03"
+    ],
+    "relevance_note": "Владение материальным экземпляром не равно владению copyright.",
+    "expected": [
+      "diary",
+      "physical"
+    ]
+  },
+  {
+    "id": "L04",
+    "url": "https://www.wipo.int/wipolex/en/legislation/details/23256",
+    "tier": "official_legal_collection",
+    "claim_ids": [
+      "L04"
+    ],
+    "relevance_note": "Метаданные ГК РФ версии 2025; актуальность после 03.08.2025 требует проверки перед сделкой.",
+    "expected": [
+      "2025",
+      "Civil Code"
+    ]
+  },
+  {
+    "id": "L05",
+    "url": "https://www.wipo.int/wipolex/en/text/581601",
+    "tier": "official_legal_collection_archived",
+    "claim_ids": [
+      "L05"
+    ],
+    "relevance_note": "Текст ГК РФ ред.2020: ст.1227,1259,1260,1281,1282,1283; для текущих выводов сверить с 2025.",
+    "expected": [
+      "1281",
+      "1259"
+    ]
+  },
+  {
+    "id": "L06",
+    "url": "https://www.wipo.int/wipolex/en/legislation/details/23486",
+    "tier": "primary_law",
+    "claim_ids": [
+      "L06"
+    ],
+    "relevance_note": "ЕС: срок, соавторство, музыкальные композиции со словами, third-country cap и переходные правила.",
+    "expected": [
+      "Article 7",
+      "70"
+    ]
+  },
+  {
+    "id": "L07",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-8930",
+    "tier": "primary_law",
+    "claim_ids": [
+      "L07"
+    ],
+    "relevance_note": "Испания: ст.26,163 и переходное правило авторов до 07.12.1987.",
+    "expected": [
+      "163",
+      "1987"
+    ]
+  },
+  {
+    "id": "L08",
+    "url": "https://www.copyright.gov/circs/circ38b.pdf",
+    "tier": "official_explainer",
+    "claim_ids": [
+      "L08"
+    ],
+    "relevance_note": "США: восстановление иностранных прав, source country и срок старых публикаций.",
+    "expected": [
+      "95 years",
+      "restoration"
+    ]
+  },
+  {
+    "id": "L09",
+    "url": "https://www.copyright.gov/circs/circ15a.pdf",
+    "tier": "official_explainer",
+    "claim_ids": [
+      "L09"
+    ],
+    "relevance_note": "США: сроки, публикация до 1978, неопубликованные произведения.",
+    "expected": [
+      "1978",
+      "95"
+    ]
+  },
+  {
+    "id": "L10",
+    "url": "https://www.legislation.gov.uk/ukpga/1988/48/section/12",
+    "tier": "primary_law",
+    "claim_ids": [
+      "L10"
+    ],
+    "relevance_note": "Великобритания: 70 лет и сравнение с иностранной страной происхождения.",
+    "expected": [
+      "70",
+      "country"
+    ]
+  },
+  {
+    "id": "L11",
+    "url": "https://laws-lois.justice.gc.ca/eng/acts/C-42/section-6.html",
+    "tier": "primary_law",
+    "claim_ids": [
+      "L11"
+    ],
+    "relevance_note": "Канада: основной срок жизнь+70; это не решает вопрос возрождения ранее истёкших прав.",
+    "expected": [
+      "70",
+      "author"
+    ]
+  },
+  {
+    "id": "L12",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/l9610.htm",
+    "tier": "primary_law",
+    "claim_ids": [
+      "L12"
+    ],
+    "relevance_note": "Бразилия: ст.41–42,70 лет, соавторы; международное применение отдельно.",
+    "expected": [
+      "Art. 41",
+      "setenta"
+    ]
+  },
+  {
+    "id": "L13",
+    "url": "https://www.cric.or.jp/english/clj/cl2.html",
+    "tier": "primary_legal_translation",
+    "claim_ids": [
+      "L13"
+    ],
+    "relevance_note": "Япония: ст.51,58, срок и сравнение иностранного срока; версия перевода ограничена.",
+    "expected": [
+      "Article 51",
+      "Article 58"
+    ]
+  },
+  {
+    "id": "M01",
+    "url": "https://www.nyrb.com/collections/tatyana-tolstaya/products/the-slynx?variant=1094932585",
+    "tier": "primary_publisher",
+    "claim_ids": [
+      "M01"
+    ],
+    "relevance_note": "NYRB публикует переводную русскую фантастическую прозу; тематический fit, не готовность купить Соколову.",
+    "expected": [
+      "Slynx",
+      "Russian"
+    ]
+  },
+  {
+    "id": "M02",
+    "url": "https://www.chicagoreviewpress.com/roadside-picnic-products-9781613743416.php",
+    "tier": "primary_publisher",
+    "claim_ids": [
+      "M02"
+    ],
+    "relevance_note": "Переиздание Strugatsky, новые переводы, отдельно указаны US/CA/MX права.",
+    "expected": [
+      "Roadside",
+      "Rights"
+    ]
+  },
+  {
+    "id": "M03",
+    "url": "https://impedimenta.es/producto/solaris",
+    "tier": "primary_publisher",
+    "claim_ids": [
+      "M03"
+    ],
+    "relevance_note": "Испанское издание Solaris/прямой перевод, издатель восточноевропейской фантастики.",
+    "expected": [
+      "Solaris",
+      "Traducción"
+    ]
+  },
+  {
+    "id": "M04",
+    "url": "https://www.penguinrandomhouse.com/books/577202/the-future-is-female-25-classic-science-fiction-stories-by-women-from-pulp-pioneers-to-ursula-k-le-guin-by-lisa-yaszek/",
+    "tier": "primary_publisher",
+    "claim_ids": [
+      "M04"
+    ],
+    "relevance_note": "Антология классической женской фантастики: аналог редакционной упаковки, без данных доходности.",
+    "expected": [
+      "Female",
+      "2018"
+    ]
+  },
+  {
+    "id": "M05",
+    "url": "https://www.innertraditions.com/publish/",
+    "tier": "primary_publisher",
+    "claim_ids": [
+      "M05"
+    ],
+    "relevance_note": "Healing Arts Press принимает предложения по тематике здоровья; процедура, не покупательское намерение.",
+    "expected": [
+      "HEALING",
+      "SAMPLE"
+    ]
+  },
+  {
+    "id": "M06",
+    "url": "https://rao.ru/for-users/teatram/oformlenie-razreshenij-teatram/",
+    "tier": "primary_collecting_society",
+    "claim_ids": [
+      "M06"
+    ],
+    "relevance_note": "Порядок разрешений театрам; музыкально-драматический порядок может отличаться.",
+    "expected": [
+      "разрешен",
+      "музыкально"
+    ]
+  },
+  {
+    "id": "M07",
+    "url": "https://rao.ru/for-rightholders/inym-pravoobladatelyam/zaklyuchenie-dogovora/",
+    "tier": "primary_collecting_society",
+    "claim_ids": [
+      "M07"
+    ],
+    "relevance_note": "Документы для правообладателя/наследника в РАО.",
+    "expected": [
+      "наслед",
+      "свидетельство"
+    ]
+  },
+  {
+    "id": "M08",
+    "url": "https://satire.ru/about/past-years-perfomances",
+    "tier": "primary_theatre",
+    "claim_ids": [
+      "M08",
+      "V01"
+    ],
+    "relevance_note": "Театр сатиры: прошлая постановка Малиновки 2013; исторический контакт, не текущая афиша.",
+    "expected": [
+      "Типота",
+      "2013"
+    ]
+  },
+  {
+    "id": "M09",
+    "url": "https://www.operetta-saratov.ru/museum/spektakli/25-1970_svadba_v_malinovke.htm",
+    "tier": "primary_theatre",
+    "claim_ids": [
+      "M09",
+      "V01"
+    ],
+    "relevance_note": "Историческая постановка Малиновки; история исполнения не означает текущий спрос.",
+    "expected": [
+      "Типот",
+      "1970"
+    ]
+  },
+  {
+    "id": "M10",
+    "url": "https://about.netflix.com/news/netflix-acquires-iconic-roald-dahl-story-company",
+    "tier": "primary_transaction_party",
+    "claim_ids": [
+      "M10"
+    ],
+    "relevance_note": "Сделка Netflix/RDSC: расширение на кино, игры, театр. Цена в объявлении не раскрыта.",
+    "expected": [
+      "2021",
+      "games"
+    ]
+  },
+  {
+    "id": "M11",
+    "url": "https://www.tolkienestate.com/frequently-asked-questions-and-links/",
+    "tier": "primary_estate",
+    "claim_ids": [
+      "M11"
+    ],
+    "relevance_note": "Раздельное управление publishing/permissions/архивами; пример устройства estate.",
+    "expected": [
+      "Publishing Rights",
+      "unpublished"
+    ]
+  },
+  {
+    "id": "M12",
+    "url": "https://www.copyright.com/media-press-releases/ccc-launching-new-ai-content-re-use-rights-for-u-s-academic-customers-and-transactional-licensing-capabilities-for-ai/",
+    "tier": "primary_licensing_provider",
+    "claim_ids": [
+      "M12"
+    ],
+    "relevance_note": "AI reuse/training лицензии CCC; участие конкретного маленького наследия не гарантировано.",
+    "expected": [
+      "2026",
+      "Training"
+    ]
+  },
+  {
+    "id": "M13",
+    "url": "https://kdp.amazon.com/en_US/help/topic/G200634500",
+    "tier": "primary_platform_terms",
+    "claim_ids": [
+      "M13"
+    ],
+    "relevance_note": "KDP: 35/70%, VAT и delivery, территориальные условия.",
+    "expected": [
+      "70%",
+      "Delivery"
+    ]
+  },
+  {
+    "id": "M14",
+    "url": "https://kdp.amazon.com/en_US/help/topic/G200641280",
+    "tier": "primary_platform_terms",
+    "claim_ids": [
+      "M14"
+    ],
+    "relevance_note": "Public domain ebook не имеет права на 70% тариф KDP.",
+    "expected": [
+      "public domain",
+      "70%"
+    ]
+  },
+  {
+    "id": "M15",
+    "url": "https://help.acx.com/s/article/audible-s-new-royalty-model",
+    "tier": "primary_platform_terms",
+    "claim_ids": [
+      "M15"
+    ],
+    "relevance_note": "ACX новая модель с 26.05.2026: 50/30%, member value; не процент от розничной цены.",
+    "expected": [
+      "50%",
+      "30%"
+    ]
+  },
+  {
+    "id": "M17",
+    "url": "https://www.wipo.int/publications/en/details.jsp?id=4742&plang=EN",
+    "tier": "official_practice_guide",
+    "claim_ids": [
+      "M17"
+    ],
+    "relevance_note": "Contracts in Publishing: виды издательских договоров/лицензий.",
+    "expected": [
+      "Contracts",
+      "2024"
+    ]
+  },
+  {
+    "id": "B20",
+    "url": "https://mosoperetta.ru/about/contact-us/letopis-teatra/",
+    "tier": "primary_theatre",
+    "claim_ids": [
+      "B20",
+      "V02",
+      "V10",
+      "V12",
+      "V18"
+    ],
+    "relevance_note": "Летопись: Вольный ветер, Беспокойное счастье, другие либретто; исторические даты постановок.",
+    "expected": [
+      "Типот",
+      "БЕСПОКОЙНОЕ"
+    ]
+  },
+  {
+    "id": "B21",
+    "url": "https://mosfilm.ru/cinema/films/volnyy-veter/",
+    "tier": "primary_film_studio",
+    "claim_ids": [
+      "B21",
+      "V24"
+    ],
+    "relevance_note": "Вольный ветер: сценаристы Типот/Крахт/Винников; фильм как отдельная адаптация.",
+    "expected": [
+      "Типот",
+      "Крахт"
+    ]
+  },
+  {
+    "id": "L14",
+    "url": "https://www.gesetze-im-internet.de/englisch_urhg/englisch_urhg.html",
+    "tier": "primary_law",
+    "claim_ids": [
+      "L14"
+    ],
+    "relevance_note": "Германия §§64–65,69,71; срок, музыкальное соавторство, первое посмертное издание.",
+    "expected": [
+      "Section 64",
+      "Section 71"
+    ]
+  },
+  {
+    "id": "L15",
+    "url": "https://ised-isde.canada.ca/site/canadian-intellectual-property-office/sites/default/files/documents/CIPOCS-2108-AR22-23-ENG_final.pdf",
+    "tier": "official_explainer",
+    "claim_ids": [
+      "L15"
+    ],
+    "relevance_note": "Канада: переход на70лет не возрождает истёкшие к30.12.2022 права.",
+    "expected": [
+      "retroactive",
+      "2022"
+    ]
+  },
+  {
+    "id": "M18",
+    "url": "https://prozhito.org/",
+    "tier": "primary_archive_operator",
+    "claim_ids": [
+      "M18"
+    ],
+    "relevance_note": "Цифровые личные архивы, корпус дневников; партнёр по сохранению, не подтверждённый покупатель.",
+    "expected": [
+      "дневник",
+      "архив"
+    ]
+  },
+  {
+    "id": "M19",
+    "url": "https://www.hoover.org/library-archives/collections/history/russia-eurasia",
+    "tier": "primary_archive_operator",
+    "claim_ids": [
+      "M19"
+    ],
+    "relevance_note": "Коллекция Russia/Eurasia: personal papers, XX век; тематический fit только после выборки.",
+    "expected": [
+      "personal papers",
+      "Russian"
+    ]
+  },
+  {
+    "id": "M20",
+    "url": "https://www.hoover.org/library-archives/policies/collections/collection-donations",
+    "tier": "primary_archive_operator",
+    "claim_ids": [
+      "M20"
+    ],
+    "relevance_note": "Политика donations и единства архива; наличие коллекции не означает предложение покупки.",
+    "expected": [
+      "donations",
+      "repository"
+    ]
+  },
+  {
+    "id": "M21",
+    "url": "https://www.annefrank.org/en/anne-frank/diary/how-did-annes-diary-become-so-famous/",
+    "tier": "primary_heritage_operator",
+    "claim_ids": [
+      "M21"
+    ],
+    "relevance_note": "Исторический пример дневник→переводы→спектакль; не финансовый аналог неизвестного архива.",
+    "expected": [
+      "1947",
+      "1950"
+    ]
+  },
+  {
+    "id": "M22",
+    "url": "https://research.annefrank.org/en/onderwerpen/287e2f8b-9a45-4ce4-b3b7-59cc1f6cdfb4/",
+    "tier": "primary_heritage_operator",
+    "claim_ids": [
+      "M22"
+    ],
+    "relevance_note": "Сохранение отдельных translation/film rights в издательском договоре1946; пример разделения прав.",
+    "expected": [
+      "translation",
+      "film"
+    ]
+  },
+  {
+    "id": "L16",
+    "url": "https://www.wipo.int/wipolex/en/legislation/details/21065",
+    "tier": "official_legal_collection",
+    "claim_ids": [
+      "L16"
+    ],
+    "relevance_note": "Китай: запись закона2020; использовать только при совпадении страны/закона после проверки.",
+    "expected": [
+      "China",
+      "2020"
+    ]
+  },
+  {
+    "id": "B22",
+    "url": "https://aseev.kurskonb.ru/page/2-02-02.html",
+    "tier": "primary_library",
+    "claim_ids": [
+      "B22",
+      "N44"
+    ],
+    "relevance_note": "Библиотечная библиография: Два года в Чистополе, Критерион,2006; требуется сверка титульного листа и издательского договора.",
+    "expected": [
+      "Соколова",
+      "2006"
+    ]
+  },
+  {
+    "id": "B23",
+    "url": "https://ru.wikipedia.org/wiki/%D0%A1%D0%BE%D0%BA%D0%BE%D0%BB%D0%BE%D0%B2%D0%B0,_%D0%9D%D0%B0%D1%82%D0%B0%D0%BB%D1%8C%D1%8F_%D0%92%D0%B8%D0%BA%D1%82%D0%BE%D1%80%D0%BE%D0%B2%D0%BD%D0%B0",
+    "tier": "secondary_biography",
+    "claim_ids": [
+      "B23",
+      "K01",
+      "K02",
+      "K03",
+      "K04",
+      "K05",
+      "K06",
+      "K08"
+    ],
+    "relevance_note": "Дополняет список книг1961–1986 и посмертное издание2006; библиография, не подтверждение семейных прав.",
+    "expected": [
+      "Курьерский",
+      "2006"
+    ]
+  },
+  {
+    "id": "M23",
+    "url": "https://www.agathachristie.com/games/death-on-the-nile",
+    "tier": "primary_estate",
+    "claim_ids": [
+      "M23"
+    ],
+    "relevance_note": "Estate подтверждает выпущенную игру Microids на основе романа; цены лицензионной сделки отсутствуют.",
+    "expected": [
+      "Microids",
+      "Out Now"
+    ]
+  },
+  {
+    "id": "M24",
+    "url": "https://11bitstudios.com/games/the-invincible/",
+    "tier": "primary_game_publisher",
+    "claim_ids": [
+      "M24"
+    ],
+    "relevance_note": "Игра по миру Станислава Лема существует; не доход семьи Соколовой.",
+    "expected": [
+      "Lem",
+      "Invincible"
+    ]
+  },
+  {
+    "id": "M25",
+    "url": "https://ir.11bitstudios.com/wp-content/uploads/2025/02/Annual-Report-of-11-bit-studios-S.A.-for-2023.pdf",
+    "tier": "primary_annual_report",
+    "claim_ids": [
+      "M25"
+    ],
+    "relevance_note": "Отчёт2023: релиз The Invincible и продажи вокруг релиза ниже ожиданий; отрицательный аналог риска.",
+    "expected": [
+      "below expectations",
+      "Invincible"
+    ]
+  }
+]

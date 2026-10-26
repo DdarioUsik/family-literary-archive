@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#211c22">
+  <title>Мировые кейсы · Семейное наследие</title>
+  <meta name="description" content="Реальные истории семейных литературных прав: лицензии, сделки, адаптации, опубликованные доходы и маршруты покупателей для семейного архива.">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="assets/styles.css"><link rel="stylesheet" href="assets/case-studies.css">
+  <script src="assets/case-studies.js" defer></script>
+</head>
+<body class="cases-page">
+  <a class="skip-link" href="#main">Перейти к исследованию</a>
+  <header class="doc-top cases-top">
+    <a class="brand" href="index.html"><span class="brand-mark">✦</span><span>Семейное<br>наследие</span></a>
+    <nav aria-label="Навигация отчёта"><a href="index.html">← К отчёту</a><a href="library.html">Читальня</a><span class="cases-current">Мировые кейсы</span></nav>
+  </header>
+  <main id="main">
+    <section class="cases-hero">
+      <div class="cases-hero-grain" aria-hidden="true"></div>
+      <div class="cases-hero-content">
+        <p class="eyebrow eyebrow-light"><span class="eyebrow-line"></span> ЧУЖОЙ ОПЫТ · ПОНЯТНЫЕ МАРШРУТЫ · ПРОВЕРЕННЫЕ ЦИФРЫ</p>
+        <h1>Как старые<br><em>истории становятся делом.</em></h1>
+        <p class="cases-lede">Шесть реальных путей: семейная компания выдаёт лицензии, наследники сохраняют долю, правообладатель продаёт каталог студии, а дневник находит читателя через издателя и сцену. Суммы везде подписаны так, чтобы доход семьи не путать с кассой фильма или ценой чужой доли.</p>
+        <div class="cases-hero-links"><a class="button button-gold" href="#cases">Изучить истории <span>↓</span></a><a class="button button-outline" href="#family-fit">Сопоставить с архивом <span>↓</span></a></div>
+      </div>
+      <div class="cases-hero-mark" aria-hidden="true"><span>ПРАВО</span><b>→</b><span>ФОРМАТ</span><b>→</b><span>АУДИТОРИЯ</span></div>
+    </section>
+
+    <section class="case-ledger" aria-label="Показательные цифры">
+      <article><span class="ledger-kind">СЕМЕЙНАЯ КОМПАНИЯ</span><b>€4,7 млн</b><p>прибыль Moomin Characters за 2016 год; в прессе также описана выплата дивидендов семье.</p><a href="#moomin">История Moomin ↗</a></article>
+      <article><span class="ledger-kind">СДЕЛКА С КАТАЛОГОМ</span><b>£500 млн+</b><p>оценка платежа семье Роальда Даля по сообщению Sky News; Netflix цену официально не раскрывал.</p><a href="#dahl">История Dahl ↗</a></article>
+      <article><span class="ledger-kind">ДОЛЯ ПАРТНЁРА</span><b>C$630 млн</b><p>цена сделки Sony за 41% Peanuts у WildBrain. Эти деньги получила WildBrain, семья сохранила 20%.</p><a href="#peanuts">История Peanuts ↗</a></article>
+      <article><span class="ledger-kind">КАССА ЭКРАНИЗАЦИИ</span><b>$350 млн+</b><p>мировая касса фильма «Убийство в Восточном экспрессе»; это сборы фильма, а не выплата наследникам.</p><a href="#christie">История Christie ↗</a></article>
+    </section>
+
+    <section class="case-intro section-paper" id="cases">
+      <div class="section-kicker"><span>01 / ПОДРОБНЫЕ ИСТОРИИ</span><span>6 МОДЕЛЕЙ · ОТКРЫТЫЕ ИСТОЧНИКИ</span></div>
+      <div class="case-intro-head"><h2>Сначала путь.<br><em>Потом сумма.</em></h2><p>У каждого кейса есть конкретный владелец, покупатель или партнёр, формат сделки и финансовый показатель. Откройте карточку, чтобы увидеть, что можно перенести на семейные произведения.</p></div>
+      <div class="case-controls">
+        <label for="case-search">Найти по имени, формату или произведению</label>
+        <input id="case-search" type="search" placeholder="Например, театр, дневник, Sony" autocomplete="off">
+        <div class="case-filter-row" role="group" aria-label="Фильтр историй">
+          <button class="case-filter is-active" type="button" data-filter="all" aria-pressed="true">Все истории</button>
+          <button class="case-filter" type="button" data-filter="family" aria-pressed="false">Семейная компания</button>
+          <button class="case-filter" type="button" data-filter="partner" aria-pressed="false">Партнёр / доля</button>
+          <button class="case-filter" type="button" data-filter="sale" aria-pressed="false">Продажа каталога</button>
+          <button class="case-filter" type="button" data-filter="diary" aria-pressed="false">Дневники</button>
+        </div>
+        <p id="case-count" role="status" class="case-count">Загружаю истории…</p>
+      </div>
+      <div id="case-grid" class="case-grid" aria-live="polite"></div>
+      <p id="case-empty" class="case-empty" hidden>По этому запросу кейсов нет. Измените поиск или выберите другой фильтр.</p>
+    </section>
+
+    <section class="buyers-section" id="buyers">
+      <div class="buyers-heading"><p class="eyebrow">02 / КТО ПОКУПАЕТ И ЧТО ИМ ПРЕДЛОЖИТЬ</p><h2>Покупатель приходит<br><em>за конкретным форматом.</em></h2><p>Целевой партнёр редко покупает «всю семью и всё наследие». Обычно он ищет один объект и один способ его выпустить. Примеры компаний ниже — доказанные категории рынка; это ещё не подтверждённые покупатели именно семейных прав.</p></div>
+      <div class="buyer-tabs" role="group" aria-label="Фильтр покупателей">
+        <button class="buyer-tab is-active" type="button" data-buyer-filter="all" aria-pressed="true">Все форматы</button>
+        <button class="buyer-tab" type="button" data-buyer-filter="stage" aria-pressed="false">Сцена</button>
+        <button class="buyer-tab" type="button" data-buyer-filter="screen" aria-pressed="false">Экран</button>
+        <button class="buyer-tab" type="button" data-buyer-filter="books" aria-pressed="false">Книги и аудио</button>
+        <button class="buyer-tab" type="button" data-buyer-filter="brand" aria-pressed="false">Бренд и реклама</button>
+        <button class="buyer-tab" type="button" data-buyer-filter="archive" aria-pressed="false">Архив и образование</button>
+      </div>
+      <div id="buyer-grid" class="buyer-grid"></div>
+      <div class="advertising-note"><span class="note-seal">?</span><p><b>Агентство рекламы может участвовать, но это отдельный продукт.</b> Обычно обсуждается узкое разрешение для одной кампании: фраза, образ или герой, с конкретной маркой, территорией, сроком и носителями. В найденных историях нет подтверждённой суммы, показывающей, что реклама — самый доходный путь для литературного архива. В японском лицензионном справочнике Moomin реклама, продвижение и рекламные подарки идут отдельной категорией обращений к правообладателю.</p></div>
+    </section>
+
+    <section class="family-fit section-paper" id="family-fit">
+      <div class="section-kicker"><span>03 / ЧТО БЛИЖЕ ВСЕГО ВАШЕМУ ПОРТФЕЛЮ</span><span>РАБОЧАЯ ГИПОТЕЗА ПО ЖАНРУ</span></div>
+      <div class="case-intro-head"><h2>Подбирать путь<br><em>по самой вещи.</em></h2><p>Сейчас рыночная карта каталогизирована, но права подтверждены только описанием семьи. Поэтому это приоритеты проверки спроса, а не оценка будущих поступлений.</p></div>
+      <div class="family-fit-grid">
+        <article class="fit-card fit-stage"><span class="fit-number">01 · БЛИЖАЙШИЙ ФОРМАТ</span><h3>Пьесы и либретто Типота — Гинзбурга</h3><p>Сначала — театральные лицензии и постановочные партнёры. Для «Свадьбы в Малиновке» и «Вольного ветра» отдельно разложить исходный текст, музыку, перевод, редакции, соавторство и права на фильм. Агент по сценическим правам может вести разрешения по странам и постановкам.</p><a href="library.html#v01">Сверить «Свадьбу в Малиновке» ↗</a><a href="library.html#v02">Сверить «Вольный ветер» ↗</a></article>
+        <article class="fit-card fit-prose"><span class="fit-number">02 · НИЗКАЯ СТОИМОСТЬ ТЕСТА</span><h3>Проза Натальи Соколовой</h3><p>Один проверенный рассказ/повесть → редакторское читательское заключение → короткий переводческий образец → иностранный издатель или аудиоиздатель. Кино и рекламную адаптацию тестировать после того, как понятны сюжет, целевая аудитория и читательская реакция.</p><a href="library.html#n05">Прочитать карточку «Захвати с собой улыбку…» ↗</a><a href="library.html#n04">Прочитать карточку «Осторожно, волшебное!» ↗</a></article>
+        <article class="fit-card fit-diary"><span class="fit-number">03 · АРХИВНЫЙ МАРШРУТ</span><h3>Около 900 дневников</h3><p>Первый покупатель здесь может прийти за редакционной, архивной или образовательной ценностью: архивное издательство, университет, музей, документальный продюсер. До публичного доступа нужны опись, права, отбор, проверка персональных упоминаний и решение о приватных фрагментах. По данным семьи, оригиналы находятся в РГАЛИ и на даче, оцифрована часть примерно из 70 единиц; объём и состав требуют инвентаризации.</p><a href="materials/diaries-strategy.html">Открыть стратегию дневников ↗</a></article>
+        <article class="fit-card fit-medical"><span class="fit-number">04 · СПЕЦИАЛЬНАЯ РЕДАКЦИЯ</span><h3>«Помоги себе сам»</h3><p>Рассматривать историческое переиздание с комментарием историка медицины и профильного врача. До предложения издателю подтвердить вклад Павла Соколова и Юрия Герасимова. Современные рекомендации требуют отдельной актуальной проверки.</p><a href="library.html#p01">Открыть карточку книги ↗</a></article>
+      </div>
+    </section>
+
+    <section class="first-package">
+      <div class="first-package-copy"><p class="eyebrow eyebrow-light">04 / ЧТО ОТПРАВЛЯТЬ ПОКУПАТЕЛЮ</p><h2>Не весь архив сразу.<br><em>Один ясный пакет.</em></h2><p>Рыночные кейсы показывают преимущество отдельного управляемого каталога прав: партнёр видит то, что он может купить или лицензировать, и с кем заключать договор.</p></div>
+      <ol class="package-list">
+        <li><b>Паспорт одного произведения</b><span>Название, авторы и соавторы, версии, даты, первая публикация, короткая аннотация, доступный полный текст.</span></li>
+        <li><b>Что именно разрешается</b><span>Издание, перевод, сцена, экран, запись, реклама, товарный знак — отдельные пункты по территориям и срокам.</span></li>
+        <li><b>Почему оно может найти зрителя</b><span>Читательский материал, узнаваемый мотив, архивный факт, прежняя постановка, сопоставимый проект или результат небольшого теста.</span></li>
+        <li><b>Документальная цепочка прав</b><span>Доли, наследование, договоры, музыка, перевод, визуальные материалы, права третьих лиц и открытые вопросы.</span></li>
+        <li><b>Ограниченное предложение</b><span>Одна работа, один формат, территория и срок. Для крупной адаптации — обсуждать этап разработки и опцион, сохраняя права на остальные способы использования.</span></li>
+      </ol>
+      <div class="package-footer"><a class="button button-gold" href="materials/flagship-strategies.html">Пять карточек для первого пакета <span>↗</span></a><a href="materials/90-day-plan.html">План первых действий <span>↗</span></a></div>
+    </section>
+
+    <section class="numbers-caveat" id="numbers">
+      <div><p class="eyebrow">05 / ЧЕСТНО О ДЕНЬГАХ</p><h2>Публичная цифра<br><em>ещё не выплата семье.</em></h2></div>
+      <div class="numbers-caveat-copy"><p>В исследованных сделках рядом стоят разные показатели: выручка или прибыль компании-правообладателя; дивиденд; цена доли партнёра; оценка продажи прав; книжный тираж; кинопрокатные сборы; розничный оборот лицензированных товаров. Их нельзя складывать или переносить на другой каталог.</p><p>Самая полезная открытая опора для дохода семейного лицензиара здесь — Moomin Characters: Yle сообщает о €4,7 млн прибыли за 2016 год и дивидендах €1,6 млн, распределённых семье примерно за два года до публикации статьи. Для Даля Sky News сообщил о платеже семье «чуть более £500 млн», но официальная цена сделки не опубликована. По остальным историям точная выплата наследникам публично не раскрыта.</p><p class="numbers-warning">Следовательно, «максимальный заработок» вашей семьи нельзя вывести из этих рекордов. Сначала нужно проверить права, аудиторию и интерес к каждому формату; потом оценивать конкретные предложения и чистый доход после расходов, агентов и долей соавторов.</p></div>
+    </section>
+
+    <section class="source-method" id="sources">
+      <div class="source-method-top"><div><p class="eyebrow">06 / ИСТОЧНИКИ И МЕТОД</p><h2>Сначала документы.<br><em>Потом сравнения.</em></h2></div><p>Каждая цифра на этой вкладке подписана как цена сделки, прибыль компании, дивиденд, прокатная касса или число экземпляров. Данные о семье пользователя отмечены отдельно от внешних источников. Условия договоров, точные роялти и персональные чистые выплаты часто не публикуются.</p></div>
+      <div class="source-validation" id="source-validation" role="status">Загружаю журнал проверки ссылок…</div>
+      <div id="case-source-list" class="case-source-list"></div>
+      <div class="source-downloads"><a href="assets/cases.json" download>Скачать карточки и маршруты покупателей ↓</a><a href="assets/case-source-checks.json" download>Скачать журнал проверки источников ↓</a></div>
+    </section>
+  </main>
+  <footer class="site-footer"><a class="brand" href="index.html"><span class="brand-mark">✦</span> Семейное наследие</a><a href="library.html">Читальня</a><a href="index.html#materials">Все материалы</a><span>Мировые кейсы · проверка ссылок 26 октября 2026</span></footer>
+</body>
+</html>

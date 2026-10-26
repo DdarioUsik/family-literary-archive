@@ -1,0 +1,158 @@
+{
+  "currency": "EUR",
+  "horizons_months": [
+    12,
+    36
+  ],
+  "status": "illustrative_assumptions_not_valuation",
+  "family_share_of_author_rights": 1,
+  "agent_fee": 0.15,
+  "book": {
+    "publisher_net_per_copy": 8,
+    "royalty_rate": 0.08,
+    "retail_ex_vat": 15
+  },
+  "stage": {
+    "box_office_per_performance": 6000,
+    "total_text_royalty_rate": 0.04,
+    "typot_share_of_text_royalty": 0.25
+  },
+  "own": {
+    "ebook_price_ex_vat": 6,
+    "ebook_platform_rate": 0.7,
+    "ebook_delivery_cost": 0.12,
+    "print_price_ex_vat": 18,
+    "print_platform_rate": 0.6,
+    "print_manufacturing_cost": 5.4,
+    "new_contributor_share_of_publisher_receipts": 0.15
+  },
+  "archive": {
+    "reported_quantity": 900,
+    "unit": "unknown",
+    "reported_digitized_units": 70,
+    "digitized_unit": "unknown",
+    "pilot_existing_usable_pages_credited_in_base_case": 0,
+    "scan_per_page": 0.4,
+    "htr_per_page": 0.1,
+    "review_minutes_per_page": 5,
+    "review_hourly_rate": 20,
+    "notebook_page_assumption": 80,
+    "pilot_pages": 300,
+    "pilot_other_cost": 1250
+  },
+  "scenarios": [
+    {
+      "name": "Осторожный",
+      "key": "low",
+      "h12": {
+        "book_deals": 0,
+        "book_units_each": 100,
+        "advance_each": 750,
+        "stage_performances": 0,
+        "options": 0,
+        "option_fee": 2000,
+        "license_operations": 700,
+        "ebook_units": 100,
+        "print_units": 30,
+        "own_production": 2000,
+        "own_marketing": 250,
+        "rights_common": 700,
+        "diary_pilot": 1000
+      },
+      "h36": {
+        "book_deals": 1,
+        "book_units_each": 300,
+        "advance_each": 750,
+        "stage_performances": 5,
+        "options": 0,
+        "option_fee": 2000,
+        "license_operations": 1200,
+        "ebook_units": 400,
+        "print_units": 100,
+        "own_production": 2500,
+        "own_marketing": 700,
+        "rights_common": 1000,
+        "diary_pilot": 1000
+      }
+    },
+    {
+      "name": "Базовый",
+      "key": "base",
+      "h12": {
+        "book_deals": 1,
+        "book_units_each": 800,
+        "advance_each": 1500,
+        "stage_performances": 12,
+        "options": 0,
+        "option_fee": 3000,
+        "license_operations": 1500,
+        "ebook_units": 700,
+        "print_units": 150,
+        "own_production": 4500,
+        "own_marketing": 1500,
+        "rights_common": 1500,
+        "diary_pilot": 2000
+      },
+      "h36": {
+        "book_deals": 3,
+        "book_units_each": 2500,
+        "advance_each": 1500,
+        "stage_performances": 60,
+        "options": 1,
+        "option_fee": 3000,
+        "license_operations": 2500,
+        "ebook_units": 3500,
+        "print_units": 800,
+        "own_production": 6500,
+        "own_marketing": 5000,
+        "rights_common": 2500,
+        "diary_pilot": 3000
+      }
+    },
+    {
+      "name": "Верхний",
+      "key": "high",
+      "h12": {
+        "book_deals": 2,
+        "book_units_each": 2000,
+        "advance_each": 2500,
+        "stage_performances": 30,
+        "options": 1,
+        "option_fee": 5000,
+        "license_operations": 3000,
+        "ebook_units": 2500,
+        "print_units": 500,
+        "own_production": 9000,
+        "own_marketing": 4000,
+        "rights_common": 2500,
+        "diary_pilot": 3500
+      },
+      "h36": {
+        "book_deals": 6,
+        "book_units_each": 8000,
+        "advance_each": 2500,
+        "stage_performances": 150,
+        "options": 2,
+        "option_fee": 5000,
+        "license_operations": 5000,
+        "ebook_units": 15000,
+        "print_units": 4000,
+        "own_production": 15000,
+        "own_marketing": 20000,
+        "rights_common": 4000,
+        "diary_pilot": 6000
+      }
+    }
+  ],
+  "assumptions": [
+    "Ни одна сумма аванса, лицензии, расходов или число продаж не является офертой/котировкой/оценкой текущего спроса.",
+    "Доля семьи1 означает100% именно авторского вклада; доли соавторов/переводчиков задаются отдельно. Реальная доля неизвестна.",
+    "Книжные лицензии в гибриде: испанский/другие иностранные языки; собственный выпуск: английский. Пересечения исключительности исключены моделью, но требуют договора.",
+    "Сценические лицензии — РФ, текстовая доля Типота25% задана только для иллюстрации; это не установленная доля и не тарифРАО.",
+    "Семья сообщает примерно о900 бумажных дневниках и около70 уже оцифрованных единицах. Единица счёта и цифровое покрытие неизвестны; базовый расчёт засчитывает0 пригодных существующих страниц до сверки. Если все300страниц пилота найдутся в пригодных сканах, экономия на повторном сканировании составит120EUR; OCR/проверка остаются.",
+    "Опцион — отдельное ограниченное право экранизации; плата за опцион не дополняется ценой несуществующей экранизации.",
+    "К36месяцам лицензионные сделки могут включать один отобранный том дневников; второй раз его аванс не добавляется.",
+    "Роялти считаются начисленными и оплаченными в пределах горизонта; фактическая задержка снижает денежный поток.",
+    "Налоги, удержания у источника, НДС в ценах, валютные комиссии и оплата труда семьи вне денежной модели; труд семьи показан отдельно."
+  ]
+}

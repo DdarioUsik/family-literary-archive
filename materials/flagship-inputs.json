@@ -1,0 +1,262 @@
+[
+  {
+    "id": "V01",
+    "title": "Свадьба в Малиновке",
+    "mode": "stage",
+    "author_share_assumption": 0.25,
+    "unit_gross": 6000,
+    "royalty_rate": 0.04,
+    "h12": {
+      "volumes": [
+        0,
+        12,
+        30
+      ],
+      "advances": [
+        0,
+        0,
+        0
+      ],
+      "costs": [
+        500,
+        1200,
+        1800
+      ],
+      "active": [
+        0,
+        1,
+        1
+      ]
+    },
+    "h36": {
+      "volumes": [
+        5,
+        50,
+        150
+      ],
+      "advances": [
+        0,
+        0,
+        0
+      ],
+      "costs": [
+        800,
+        2000,
+        3500
+      ],
+      "active": [
+        1,
+        1,
+        1
+      ]
+    }
+  },
+  {
+    "id": "V02",
+    "title": "Вольный ветер",
+    "mode": "stage",
+    "author_share_assumption": 0.25,
+    "unit_gross": 6000,
+    "royalty_rate": 0.04,
+    "h12": {
+      "volumes": [
+        0,
+        6,
+        20
+      ],
+      "advances": [
+        0,
+        0,
+        0
+      ],
+      "costs": [
+        500,
+        1200,
+        1800
+      ],
+      "active": [
+        0,
+        1,
+        1
+      ]
+    },
+    "h36": {
+      "volumes": [
+        3,
+        30,
+        90
+      ],
+      "advances": [
+        0,
+        0,
+        0
+      ],
+      "costs": [
+        800,
+        2000,
+        3500
+      ],
+      "active": [
+        1,
+        1,
+        1
+      ]
+    }
+  },
+  {
+    "id": "N05",
+    "title": "Захвати с собой улыбку на дорогу…",
+    "mode": "book_license",
+    "author_share_assumption": 1,
+    "unit_gross": 8,
+    "royalty_rate": 0.08,
+    "h12": {
+      "volumes": [
+        0,
+        1000,
+        4000
+      ],
+      "advances": [
+        0,
+        1500,
+        2500
+      ],
+      "costs": [
+        300,
+        700,
+        1200
+      ],
+      "active": [
+        0,
+        1,
+        1
+      ]
+    },
+    "h36": {
+      "volumes": [
+        300,
+        4000,
+        15000
+      ],
+      "advances": [
+        750,
+        1500,
+        2500
+      ],
+      "costs": [
+        500,
+        1000,
+        2000
+      ],
+      "active": [
+        1,
+        1,
+        1
+      ]
+    }
+  },
+  {
+    "id": "N04",
+    "title": "Осторожно, волшебное!",
+    "mode": "book_license",
+    "author_share_assumption": 1,
+    "unit_gross": 8,
+    "royalty_rate": 0.08,
+    "h12": {
+      "volumes": [
+        0,
+        1000,
+        5000
+      ],
+      "advances": [
+        0,
+        2000,
+        3500
+      ],
+      "costs": [
+        500,
+        1000,
+        2000
+      ],
+      "active": [
+        0,
+        1,
+        1
+      ]
+    },
+    "h36": {
+      "volumes": [
+        300,
+        5000,
+        20000
+      ],
+      "advances": [
+        1000,
+        2000,
+        3500
+      ],
+      "costs": [
+        700,
+        1500,
+        3000
+      ],
+      "active": [
+        1,
+        1,
+        1
+      ]
+    }
+  },
+  {
+    "id": "P01",
+    "title": "Помоги себе сам",
+    "mode": "book_license",
+    "author_share_assumption": 0.5,
+    "unit_gross": 8,
+    "royalty_rate": 0.08,
+    "h12": {
+      "volumes": [
+        0,
+        1500,
+        5000
+      ],
+      "advances": [
+        0,
+        2000,
+        3000
+      ],
+      "costs": [
+        600,
+        1300,
+        2000
+      ],
+      "active": [
+        0,
+        1,
+        1
+      ]
+    },
+    "h36": {
+      "volumes": [
+        300,
+        5000,
+        15000
+      ],
+      "advances": [
+        500,
+        2000,
+        3000
+      ],
+      "costs": [
+        900,
+        2000,
+        3500
+      ],
+      "active": [
+        1,
+        1,
+        1
+      ]
+    }
+  }
+]

@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#211c22">
+  <title>Читальня · Семейное наследие</title>
+  <meta name="description" content="Краткие материалы, тексты у источников и семейная сверка произведений Типота — Гинзбурга, Натальи и Павла Соколовых.">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="assets/styles.css"><link rel="stylesheet" href="assets/reader.css">
+  <script src="assets/reader.js" defer></script>
+</head>
+<body class="reader-page">
+  <a class="skip-link" href="#reading-work">Перейти к чтению</a>
+  <header class="doc-top reader-top">
+    <a class="brand" href="index.html"><span class="brand-mark">✦</span><span>Семейное<br>наследие</span></a>
+    <nav aria-label="Навигация читальни"><a href="index.html">← К отчёту</a><a href="case-studies.html">Мировые кейсы</a><span class="reader-current">Читальня</span><button id="export-reviews" type="button">Скачать мои отметки ↓</button></nav>
+  </header>
+  <main>
+    <section class="library-intro">
+      <div><p class="eyebrow">ЧИТАТЬ · УЗНАВАТЬ · СВЕРЯТЬ</p><h1>Своя история<br><em>начинается с чтения.</em></h1></div>
+      <div class="library-lede"><p>Прочитайте краткий материал, откройте найденный текст и отметьте, узнаёте ли произведение. У каждой карточки — собственный источник и точный объём проверки.</p><p id="reading-stat" class="library-stat" role="status">Загружаем читальню…</p></div>
+    </section>
+    <div class="library-layout">
+      <aside class="library-sidebar" aria-label="Выбор произведения">
+        <div class="reader-search"><label for="reading-search">Название, автор или Гинзбург</label><input id="reading-search" type="search" placeholder="Например, Дезидерата" autocomplete="off"></div>
+        <div class="reader-selects"><label>Автор<select id="reading-author"><option value="">Все авторы</option></select></label><label>Материал<select id="reading-availability"><option value="ready">Есть краткий материал</option><option value="all">Весь каталог</option><option value="text">Пересказ по тексту</option><option value="synopsis">Сюжеты постановок</option><option value="contents">Описание / оглавление</option><option value="edition">Паспорта изданий</option></select></label><label>Моя сверка<select id="reading-review-filter"><option value="all">Все отметки</option><option value="unreviewed">Нужно сверить</option><option value="match">Узнаю произведение</option><option value="different">Ошибка / другая версия</option></select></label></div>
+        <p id="reading-list-count" class="reading-list-count" role="status"></p>
+        <div id="reading-list" class="reading-list" aria-label="Произведения"></div>
+      </aside>
+      <article id="reading-work" class="reading-work" tabindex="-1" aria-label="Материал для чтения"><div class="reading-placeholder">Здесь появится выбранное произведение.</div></article>
+    </div>
+    <section class="reader-method"><span class="brand-mark">✦</span><div><h2>Уверенность складывается из деталей.</h2><p>Пересказ по фрагментам помогает познакомиться с произведением. Театральный синопсис описывает постановку. Паспорт подтверждает издание. Для окончательной сверки нужны титул, начало и конец текста, состав соавторов и редакция.</p><p>Виктор Яковлевич Гинзбург и Виктор Типот — один автор. Книги и сканы дневников от семьи пока доступны только по описанию. Найденные электронные публикации остаются внешними источниками, а семейные отметки сохраняются в этом браузере.</p><a href="assets/reading.json" download>Скачать карточки и журнал источников ↓</a></div></section>
+  </main>
+  <footer class="site-footer"><a class="brand" href="index.html"><span class="brand-mark">✦</span> Семейное наследие</a><span>Читальня · дополнение к исследованию</span><span id="reading-last-check">Проверка источников · 26 октября 2026</span></footer>
+  <p id="reader-announcement" class="reader-announcement" role="status" aria-live="polite"></p>
+</body>
+</html>
