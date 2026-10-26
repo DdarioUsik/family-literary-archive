@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#211c22">
-  <meta name="description" content="Локальная семейная читальня: материалы Надежды Павловны Соколовой и произведения Всеволода Бурштейна.">
+  <meta name="description" content="Приватная семейная читальня: материалы Надежды Павловны Соколовой и произведения Всеволода Бурштейна.">
   <title>Семейный архив · Семейное наследие</title>
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
   <link rel="stylesheet" href="assets/styles.css">
@@ -26,10 +26,10 @@
   <main id="main">
     <section class="family-hero">
       <div class="family-hero-copy">
-        <p class="eyebrow"><span class="eyebrow-line"></span> ЛИЧНАЯ ПОЛКА · ЛОКАЛЬНОЕ ХРАНЕНИЕ</p>
+        <p class="eyebrow"><span class="eyebrow-line"></span> СЕМЕЙНЫЙ АРХИВ · ПРИВАТНЫЙ GITHUB</p>
         <h1>Семейная память<br><em>в своих руках.</em></h1>
-        <p>Добавляйте книги и документы к нужному имени, открывайте их здесь и собирайте проверяемую опись. Материалы остаются на этом устройстве.</p>
-        <a class="button button-gold" href="#nadezhda">Перейти к подборкам <span>↓</span></a>
+        <p>Сканы, рукописи и книги отправляются в отдельный приватный архив семьи. Войдите в свой аккаунт GitHub, чтобы загрузить материал или открыть уже сохранённый.</p>
+        <a class="button button-gold" href="https://github.com/DdarioUsik/family-literary-materials">Открыть приватный архив <span>↗</span></a>
       </div>
       <div class="family-hero-seal" aria-hidden="true"><span>ДОКУМЕНТ</span><b>✳</b><span>ПАМЯТЬ</span></div>
     </section>
@@ -37,28 +37,42 @@
     <section class="local-storage-panel" aria-labelledby="storage-title">
       <div class="storage-mark">⌂</div>
       <div class="storage-copy">
-        <p class="eyebrow">ВАШ КОМПЬЮТЕР</p>
-        <h2 id="storage-title">Выберите место хранения</h2>
-        <p id="storage-status" role="status">Инициализируем локальное хранилище…</p>
-        <p class="storage-privacy">Если браузер поддерживает доступ к папкам, выберите папку на компьютере — файлы будут записываться туда. В остальных браузерах они хранятся в локальной базе текущего браузера. Файлы и их содержимое не отправляются на сайт или Vercel. Для резервной копии откройте материал и скачайте его; очистка данных сайта может удалить хранилище браузера.</p>
+        <p class="eyebrow">ПРИВАТНОЕ ОБЛАЧНОЕ ХРАНИЛИЩЕ</p>
+        <h2 id="storage-title">Материалы хранятся в закрытом GitHub-архиве</h2>
+        <p id="storage-status" role="status">Для загрузки откройте нужную подборку и войдите в GitHub.</p>
+        <p class="storage-privacy">Файлы загружаются на GitHub напрямую и не попадают в публичную часть сайта. Доступ есть у владельца приватного репозитория и приглашённых участников. Через браузер GitHub принимает до 25 MiB на файл; более крупные сканы потребуют загрузки через Git LFS.</p>
       </div>
-      <button class="button button-dark" id="choose-folder" type="button">Выбрать папку <span>↗</span></button>
+      <a class="button button-dark" href="https://github.com/DdarioUsik/family-literary-materials">Открыть архив <span>↗</span></a>
     </section>
 
     <section class="family-collections" aria-label="Семейные подборки">
       <article class="collection-card collection-nadezhda" id="nadezhda">
         <div class="collection-kicker"><span>01 · СЕМЕЙНАЯ ПОДБОРКА</span><span class="collection-flower">✳</span></div>
         <h2>Надежда Павловна<br><em>Соколова</em></h2>
-        <p>Загружайте сюда книги, рукописи, фотографии и сведения, связанные с Надеждой. Библиографию и авторство каждого документа можно уточнить после знакомства с материалом.</p>
-        <div class="collection-actions"><button type="button" class="button button-wine upload-button" data-collection="nadezhda">Добавить книги и материалы <span>↑</span></button><span class="collection-count" id="count-nadezhda">0 материалов</span></div>
+        <p>Книги, рукописи, дневники, фотографии и другие материалы Надежды Павловны. Для начала загрузки GitHub попросит войти в ваш аккаунт.</p>
+        <div class="collection-actions">
+          <div class="collection-github-links">
+            <a class="button button-wine" href="https://github.com/DdarioUsik/family-literary-materials/upload/main/nadezhda-sokolova" target="_blank" rel="noopener noreferrer">Загрузить на GitHub <span>↑</span></a>
+            <a class="collection-github-browse" href="https://github.com/DdarioUsik/family-literary-materials/tree/main/nadezhda-sokolova" target="_blank" rel="noopener noreferrer">Открыть подборку ↗</a>
+          </div>
+          <span class="collection-count" id="count-nadezhda">Локально: 0 материалов</span>
+        </div>
+        <div class="collection-local-actions"><button type="button" class="button button-dark local-upload-button" data-collection="nadezhda">Сохранить только в браузере</button></div>
         <div class="local-file-list" id="files-nadezhda" aria-live="polite"></div>
       </article>
 
       <article class="collection-card collection-vsevolod" id="vsevolod">
         <div class="collection-kicker"><span>02 · АВТОРСКИЙ РАЗДЕЛ</span><span class="collection-flower">✍</span></div>
         <h2>Всеволод<br><em>Бурштейн</em></h2>
-        <p>По словам семьи, Всеволод — брат и тоже пишет. Добавляйте его тексты и материалы, а названия, жанры и даты внесём в каталог после проверки.</p>
-        <div class="collection-actions"><button type="button" class="button button-wine upload-button" data-collection="vsevolod">Добавить произведения <span>↑</span></button><span class="collection-count" id="count-vsevolod">0 материалов</span></div>
+        <p>Тексты, черновики и материалы Всеволода. После загрузки названия, жанры и даты можно будет уточнить и внести в каталог.</p>
+        <div class="collection-actions">
+          <div class="collection-github-links">
+            <a class="button button-wine" href="https://github.com/DdarioUsik/family-literary-materials/upload/main/vsevolod-burshtein" target="_blank" rel="noopener noreferrer">Загрузить на GitHub <span>↑</span></a>
+            <a class="collection-github-browse" href="https://github.com/DdarioUsik/family-literary-materials/tree/main/vsevolod-burshtein" target="_blank" rel="noopener noreferrer">Открыть подборку ↗</a>
+          </div>
+          <span class="collection-count" id="count-vsevolod">Локально: 0 материалов</span>
+        </div>
+        <div class="collection-local-actions"><button type="button" class="button button-dark local-upload-button" data-collection="vsevolod">Сохранить только в браузере</button></div>
         <div class="local-file-list" id="files-vsevolod" aria-live="polite"></div>
       </article>
     </section>
@@ -72,7 +86,7 @@
 
     <section class="local-archive-note">
       <span class="note-seal">i</span>
-      <div><h2>Локальная полка и публичный сайт — разные вещи.</h2><p>Посетители сайта видят исследовательский отчёт. Загрузки в этой вкладке видны только в выбранной папке на устройстве или в локальной базе того браузера, где вы их добавили. Они не появятся у других посетителей и не попадут в обновления сайта.</p></div>
+      <div><h2>Приватный архив и публичное исследование разделены.</h2><p>Ссылки «Загрузить на GitHub» открывают приватные папки, доступные вашему аккаунту и приглашённым участникам. Публичный сайт не получает копию файлов. Загрузка через кнопку «Сохранить только в браузере» остаётся на этом устройстве и видна только в текущем браузере. GitHub сохраняет историю изменений файлов; удаление из текущей папки само по себе не стирает прежние версии из истории репозитория.</p></div>
     </section>
   </main>
 

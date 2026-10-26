@@ -129,12 +129,12 @@
         const entries = records.filter(function (record) { return record.collection === collection; });
         const count = document.getElementById("count-" + collection);
         const list = document.getElementById("files-" + collection);
-        count.textContent = countLabel(entries.length);
+        count.textContent = "Локально: " + countLabel(entries.length);
         list.replaceChildren();
         if (!entries.length) {
           const empty = document.createElement("p");
           empty.className = "local-file-empty";
-          empty.textContent = "Здесь пока пусто. Добавленные материалы появятся только в вашем локальном архиве.";
+          empty.textContent = "Локальных файлов здесь пока нет. Материалы GitHub открываются по ссылке выше.";
           list.appendChild(empty);
           return;
         }
@@ -381,8 +381,8 @@
   }
 
   async function initialize() {
-    chooseFolderButton.hidden = typeof window.showDirectoryPicker !== "function";
-    document.querySelectorAll(".upload-button").forEach(function (button) {
+    if (chooseFolderButton) chooseFolderButton.hidden = typeof window.showDirectoryPicker !== "function";
+    document.querySelectorAll(".local-upload-button").forEach(function (button) {
       button.addEventListener("click", function () {
         activeCollection = button.getAttribute("data-collection");
         fileInput.click();
@@ -398,7 +398,7 @@
       if (activeObjectUrl) URL.revokeObjectURL(activeObjectUrl);
       activeObjectUrl = null;
     });
-    chooseFolderButton.addEventListener("click", chooseFolder);
+    if (chooseFolderButton) chooseFolderButton.addEventListener("click", chooseFolder);
     try {
       directoryHandle = await readSetting("directory");
       await readAllFiles();

@@ -31,6 +31,11 @@
 .collection-vsevolod h2 em{color:#997548}
 .collection-card>p{min-height:76px;margin:0 0 21px;color:#625a53;font-size:13px}
 .collection-actions{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;padding-bottom:16px;border-bottom:1px solid var(--line)}
+.collection-github-links{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.collection-github-links .button{font-size:11px;padding:10px 13px}
+.collection-github-browse{font-size:11px;color:var(--wine);text-decoration:underline;text-underline-offset:3px}
+.collection-local-actions{margin-top:11px}
+.collection-local-actions .button{padding:7px 10px;font-size:10px}
 .button-wine{background:var(--wine);color:var(--cream);border-color:var(--wine)}
 .button-wine:hover{background:var(--wine-dark)}
 .collection-count{font-size:10px;color:#81766b}
