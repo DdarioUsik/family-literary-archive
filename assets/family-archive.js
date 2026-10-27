@@ -5,6 +5,7 @@
   const DB_VERSION = 1;
   const COLLECTIONS = {
     nadezhda: { label: "Надежда Павловна Соколова", folder: "Надежда Соколова" },
+    ekaterina: { label: "Екатерина Павловна Соколова", folder: "Екатерина Соколова" },
     vsevolod: { label: "Всеволод Бурштейн", folder: "Всеволод Бурштейн" }
   };
   let databasePromise;

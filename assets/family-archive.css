@@ -19,15 +19,17 @@
 .storage-copy p{margin:7px 0 0;color:#675e56;font-size:12px}
 .storage-copy .storage-privacy{max-width:750px;font-size:11px;color:#766b61}
 .local-storage-panel .button{white-space:nowrap}
-.family-collections{width:min(1120px,calc(100% - 48px));margin:45px auto 0;display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.family-collections{width:min(1120px,calc(100% - 48px));margin:45px auto 0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
 .collection-card{min-width:0;background:var(--cream);border:1px solid var(--line);padding:27px 29px 30px;box-shadow:var(--shadow)}
 .collection-nadezhda{border-top:4px solid var(--wine)}
+.collection-ekaterina{border-top:4px solid #766688}
 .collection-vsevolod{border-top:4px solid var(--gold)}
 .collection-kicker{display:flex;justify-content:space-between;align-items:center;color:#827367;font-size:9px;letter-spacing:.17em}
 .collection-flower{font-size:22px;color:var(--wine)}
 .collection-vsevolod .collection-flower{color:#9c7740}
 .collection-card h2{font:400 clamp(32px,4vw,47px)/1.03 var(--serif);letter-spacing:-.035em;margin:26px 0 15px}
 .collection-nadezhda h2 em{color:var(--wine)}
+.collection-ekaterina h2 em,.collection-ekaterina .collection-flower{color:#766688}
 .collection-vsevolod h2 em{color:#997548}
 .collection-card>p{min-height:76px;margin:0 0 21px;color:#625a53;font-size:13px}
 .collection-actions{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;padding-bottom:16px;border-bottom:1px solid var(--line)}
@@ -66,4 +68,5 @@
 .local-archive-note h2{margin:0 0 5px;font:400 23px/1.2 var(--serif)}
 .local-archive-note p{max-width:830px;margin:0;color:#685e55;font-size:12px}
 .family-archive-page .site-footer{border-top:1px solid var(--line)}
+@media(max-width:1040px){.family-collections{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:760px){.family-top{padding:13px 17px}.family-top nav{gap:12px;font-size:10px;flex-wrap:wrap;justify-content:flex-end}.family-hero{min-height:0;padding:56px 25px 45px;grid-template-columns:1fr;gap:29px}.family-hero-seal{width:120px;height:120px;margin-left:5px;font-size:7px}.family-hero-seal b{font-size:36px}.local-storage-panel{width:calc(100% - 32px);grid-template-columns:40px 1fr;padding:17px;gap:12px}.storage-mark{width:38px;height:38px;font-size:23px}.storage-copy h2{font-size:22px}.local-storage-panel>.button{grid-column:2;justify-self:start}.family-collections{width:calc(100% - 32px);grid-template-columns:1fr;gap:15px;margin-top:25px}.collection-card{padding:22px 20px}.collection-card h2{font-size:38px}.collection-card>p{min-height:0}.local-reader,.local-archive-note{width:calc(100% - 32px)}.local-reader{padding:18px}.local-archive-note{grid-template-columns:35px 1fr;padding:17px}.local-archive-note h2{font-size:20px}}
