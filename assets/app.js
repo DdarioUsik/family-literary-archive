@@ -1,5 +1,6 @@
 const tierLabels = {
   primary_library: 'Библиотека / архив', primary_official: 'Официальный источник',
+  primary_newspaper_scan: 'Газетный первоисточник',
   primary_law: 'Закон / регулятор', primary_platform_terms: 'Условия платформы',
   primary_publisher: 'Издатель', primary_theatre: 'Театр / репертуар',
   primary_company: 'Компания / отчёт', secondary_biography: 'Биографический источник',
@@ -80,7 +81,7 @@ function drawCatalog() {
       <h3>${escapeHtml(record.title)}</h3><span class="work-author">${escapeHtml(record.author)}</span>
       <p class="work-notes">${escapeHtml(record.notes || record.digital_availability || 'Описание ожидает сверки с экземпляром.')}</p>
       <span class="catalog-reading-status">${escapeHtml(data.reading_index?.[record.id]?.badge || 'Читательский материал ожидает текста')}</span>
-      <div class="work-card-links"><a class="reading-link" href="library.html#${recordAnchor}">${data.reading_index?.[record.id] ? 'Читать / узнать текст' : 'Сверить произведение'} ↗</a><span class="work-source-links">${links || '<span>источник не установлен</span>'}</span></div>
+      <div class="work-card-links"><a class="reading-link" href="library.html#${recordAnchor}">${data.reading_index?.[record.id]?.format === 'candidate' ? 'Проверить библиографическую наводку' : data.reading_index?.[record.id] ? 'Читать / узнать текст' : 'Сверить произведение'} ↗</a><span class="work-source-links">${links || '<span>источник не установлен</span>'}</span></div>
     </article>`;
   }).join('');
 }

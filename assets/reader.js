@@ -16,7 +16,9 @@ async function initReader() {
     window.addEventListener('hashchange', () => { const id = location.hash.slice(1).toUpperCase(); if (corpus.catalog.some(w => w.id === id)) chooseWork(id, false); });
     document.getElementById('export-reviews').addEventListener('click', exportReviews);
     const checked = shelf.sources.filter(s => s.validation_status === 'verified').length;
-    document.getElementById('reading-stat').textContent = `${shelf.entries.length} кратких материалов · ${shelf.entries.filter(e => e.format === 'text').length} текста по внешним ссылкам · ${corpus.catalog.length} записей для семейной сверки`;
+    const reviewedMaterials = shelf.entries.filter(e => e.format !== 'candidate').length;
+    const candidates = shelf.entries.filter(e => e.format === 'candidate').length;
+    document.getElementById('reading-stat').textContent = `${reviewedMaterials} читательских материалов · ${candidates} библиографическая наводка · ${shelf.entries.filter(e => e.format === 'text').length} текста по внешним ссылкам · ${corpus.catalog.length} записей для семейной сверки`;
     document.getElementById('reading-last-check').textContent = `Проверка: ${checked}/${shelf.sources.length} источников · ${shelf.checked_date}`;
     const requested = location.hash.slice(1).toUpperCase();
     chooseWork(corpus.catalog.some(w => w.id === requested) ? requested : 'N07', false);
@@ -39,7 +41,7 @@ function drawShelf() {
   const works = corpus.catalog.filter(w => {
     const e = entryFor(w.id), aliases = shelf.author_aliases[w.author] || [];
     const haystack = [w.id,w.author,w.title,w.coauthors,...aliases].join(' ').toLocaleLowerCase('ru');
-    return (!query || haystack.includes(query)) && (!author || author === w.author) && (availability === 'all' || (availability === 'ready' ? !!e : e?.format === availability)) && (review === 'all' || reviewFor(w.id).status === review);
+    return (!query || haystack.includes(query)) && (!author || author === w.author) && (availability === 'all' || (availability === 'ready' ? !!e && e.format !== 'candidate' : e?.format === availability)) && (review === 'all' || reviewFor(w.id).status === review);
   }).sort((a,b) => (order.get(a.id) ?? 999) - (order.get(b.id) ?? 999));
   document.getElementById('reading-list-count').textContent = `${works.length} из ${corpus.catalog.length} записей`;
   document.getElementById('reading-list').innerHTML = works.length ? works.map(w => {
@@ -51,7 +53,7 @@ function drawShelf() {
 function chooseWork(id, focus) {
   selectedId = id;
   const w = corpus.catalog.find(w => w.id === id), entry = entryFor(id);
-  if (!entry) document.getElementById('reading-availability').value = 'all';
+  if (!entry || entry.format === 'candidate') document.getElementById('reading-availability').value = entry?.format === 'candidate' ? 'candidate' : 'all';
   if (location.hash.slice(1).toUpperCase() !== id) history.replaceState(null, '', `#${id.toLowerCase()}`);
   drawShelf(); drawWork(w, entry);
   if (focus && matchMedia('(max-width:680px)').matches) document.getElementById('reading-work').scrollIntoView({behavior:'smooth',block:'start'});
@@ -68,7 +70,7 @@ function drawWork(w, entry) {
   const summary = entry ? `<h2 class="reader-section-name">${esc(entry.heading)}</h2><div class="reader-prose" style="--reading-font:${readingSize}px">${entry.summary.map(p => `<p>${esc(p)}</p>`).join('')}</div>` : `<h2 class="reader-section-name">Оригинал ещё предстоит получить</h2><div class="reader-prose"><p>Для этой записи есть сведения в каталоге. Читательская карточка с пересказом появится после получения и чтения конкретного текста.</p><p>Откройте библиографические источники ниже: заглавие, соавторы, год и принадлежность к сборнику помогут найти нужный экземпляр.</p></div>`;
   host.innerHTML = `<div class="reader-kicker"><span>${esc(w.id)} · ${esc(w.kind)}</span><span class="reader-badge ${esc(entry?.format || '')}">${esc(entry?.badge || 'Текст ожидает получения')}</span></div>
     <h1>${esc(w.title)}</h1><p class="reader-byline">${esc(author)}${w.author === 'Виктор Типот' ? '<span>Виктор Яковлевич Гинзбург — настоящее имя; Типот — псевдоним одного и того же автора.</span>' : ''}${w.coauthors ? `<span>Связанные авторы и версии в каталоге: ${esc(w.coauthors)}</span>` : ''}</p>
-    <div class="reader-size"><span>Размер текста</span><button type="button" data-size="-1" aria-label="Уменьшить шрифт">A−</button><button type="button" data-size="1" aria-label="Увеличить шрифт">A+</button><span>${entry?.format === 'text' ? 'Краткий пересказ · около 1 минуты' : 'Материал для знакомства'}</span></div>
+    <div class="reader-size"><span>Размер текста</span><button type="button" data-size="-1" aria-label="Уменьшить шрифт">A−</button><button type="button" data-size="1" aria-label="Увеличить шрифт">A+</button><span>${entry?.format === 'text' ? 'Краткий пересказ · около 1 минуты' : entry?.format === 'candidate' ? 'Библиографическая карточка · содержание ожидает чтения' : 'Материал для знакомства'}</span></div>
     ${summary}${entry?.excerpt ? `<blockquote class="reader-quote"><small>КОРОТКАЯ ЦИТАТА ДЛЯ УЗНАВАНИЯ · ${esc(entry.source_ids[0])}</small>${esc(entry.excerpt)}</blockquote>` : ''}
     ${entry?.spoiler ? `<details class="reader-spoiler"><summary>Показать, чем заканчивается история · спойлер</summary><p>${esc(entry.spoiler)}</p></details>` : ''}
     <section class="reader-identification"><h2>Как узнать произведение</h2><ul>${(entry?.markers || [`Автор в каталоге: ${author}.`, `Наблюдаемая дата: ${w.earliest_observed_date || 'уточняется'}.`, w.parent_id ? `Связь со сборником / основной записью: ${w.parent_id}.` : 'Сверьте титульный лист, начало, окончание и состав соавторов.']).map(m => `<li>${esc(m)}</li>`).join('')}</ul></section>

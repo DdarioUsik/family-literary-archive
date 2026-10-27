@@ -1,8 +1,285 @@
 {
-  "checked_at": "2026-10-26T10:45:36.998485+00:00",
-  "total": 10,
-  "verified": 10,
+  "checked_at": "2026-10-27T10:20:47.347827+00:00",
+  "total": 12,
+  "verified": 11,
   "checks": [
+    {
+      "source_id": "R01",
+      "claim_ids": [
+        "N07"
+      ],
+      "original_url": "https://litresp.ru/chitat/ru/%D0%93/gansovskij-sever/fantastika-1973-1974/9",
+      "checked_at": "2026-10-27T10:18:00.607638+00:00",
+      "source_tier": "electronic_text_copy",
+      "evidence_note": "«Дезидерата» в электронной расшифровке антологии",
+      "final_url": "https://litresp.ru/chitat/ru/%D0%93/gansovskij-sever/fantastika-1973-1974/9",
+      "http_status": 200,
+      "matched_markers": {
+        "Дезидерата": true,
+        "ЭПИЛОГ": true
+      },
+      "response_bytes": 200600,
+      "reachability": "reachable",
+      "validation_status": "verified"
+    },
+    {
+      "source_id": "R02",
+      "claim_ids": [
+        "N05"
+      ],
+      "original_url": "https://modernlib.net/books/sokolova_natalya/zahvati_s_soboy_ulibku_na_dorogu/read/",
+      "checked_at": "2026-10-27T10:18:00.607963+00:00",
+      "source_tier": "electronic_text_copy",
+      "evidence_note": "«Захвати с собой улыбку на дорогу…» — электронный текст",
+      "final_url": "https://modernlib.net/books/sokolova_natalya/zahvati_s_soboy_ulibku_na_dorogu/read/",
+      "http_status": 200,
+      "matched_markers": {
+        "ЧЕЛОВЕК И ЗВЕРЬ": true,
+        "лурдит": true
+      },
+      "response_bytes": 186098,
+      "reachability": "reachable",
+      "validation_status": "verified"
+    },
+    {
+      "source_id": "R03",
+      "claim_ids": [
+        "N06"
+      ],
+      "original_url": "https://modernlib.net/books/sokolova_natalya/prishedshiy_ottuda/read/",
+      "checked_at": "2026-10-27T10:18:00.608050+00:00",
+      "source_tier": "electronic_text_copy",
+      "evidence_note": "«Пришедший оттуда» — электронный текст",
+      "final_url": "https://modernlib.net/books/sokolova_natalya/prishedshiy_ottuda/read/",
+      "http_status": 200,
+      "matched_markers": {
+        "Ксения": true,
+        "ЧАСТЬ ВТОРАЯ": true
+      },
+      "response_bytes": 131613,
+      "reachability": "reachable",
+      "validation_status": "verified"
+    },
+    {
+      "source_id": "R04",
+      "claim_ids": [
+        "V01"
+      ],
+      "original_url": "https://kursal.ru/afisha/event-svadba-v-malinovke/3693/",
+      "checked_at": "2026-10-27T10:18:01.366023+00:00",
+      "source_tier": "primary_theatre",
+      "evidence_note": "Филармония имени В. И. Сафонова — сюжет постановки",
+      "final_url": "https://kursal.ru/afisha/event-svadba-v-malinovke/3693/",
+      "http_status": 200,
+      "matched_markers": {
+        "Яринка": true,
+        "Назар": true
+      },
+      "response_bytes": 96293,
+      "reachability": "reachable",
+      "validation_status": "verified"
+    },
+    {
+      "source_id": "R05",
+      "claim_ids": [
+        "V02"
+      ],
+      "original_url": "https://www.belcanto.ru/operetta_wind.html",
+      "checked_at": "2026-10-27T10:18:01.442452+00:00",
+      "source_tier": "specialist_synopsis",
+      "evidence_note": "Belcanto — сюжет и состав оперетты «Вольный ветер»",
+      "final_url": "https://www.belcanto.ru/operetta_wind.html",
+      "http_status": 200,
+      "matched_markers": {
+        "Стелла": true,
+        "Типота": true
+      },
+      "response_bytes": 74961,
+      "reachability": "reachable",
+      "validation_status": "verified"
+    },
+    {
+      "source_id": "R06",
+      "claim_ids": [
+        "V02"
+      ],
+      "original_url": "https://www.muzcomedy.ru/about/history/letopis/volnyj_veter1/",
+      "checked_at": "2026-10-27T10:18:01.816917+00:00",
+      "source_tier": "primary_theatre",
+      "evidence_note": "Театр музыкальной комедии — «Вольный ветер», постановка 1952 года",
+      "final_url": "https://www.muzcomedy.ru/about/history/letopis/volnyj_veter1/",
+      "http_status": 200,
+      "matched_markers": {
+        "Типота": true,
+        "1952": true
+      },
+      "response_bytes": 28045,
+      "reachability": "reachable",
+      "validation_status": "verified"
+    },
+    {
+      "source_id": "R07",
+      "claim_ids": [
+        "V10"
+      ],
+      "original_url": "https://operetta.su/repertoire/spektakli/devichiy-perepolokh/",
+      "checked_at": "2026-10-27T10:18:02.342070+00:00",
+      "source_tier": "primary_theatre",
+      "evidence_note": "Пятигорский театр оперетты — «Девичий переполох», сюжет и роли",
+      "final_url": "https://operetta.su/repertoire/spektakli/devichiy-perepolokh/",
+      "http_status": 200,
+      "matched_markers": {
+        "Ксения": true,
+        "Милютин": true
+      },
+      "response_bytes": 147056,
+      "reachability": "reachable",
+      "validation_status": "verified"
+    },
+    {
+      "source_id": "R08",
+      "claim_ids": [
+        "P01"
+      ],
+      "original_url": "https://bibliofan.ru/book/127782",
+      "checked_at": "2026-10-27T10:18:02.919486+00:00",
+      "source_tier": "bookseller_description",
+      "evidence_note": "Библиофан — описание экземпляра «Помоги себе сам», 1991",
+      "final_url": "https://bibliofan.ru/book/127782",
+      "http_status": 200,
+      "matched_markers": {
+        "Герасимов": true,
+        "238": true
+      },
+      "response_bytes": 28304,
+      "reachability": "reachable",
+      "validation_status": "verified"
+    },
+    {
+      "source_id": "R09",
+      "claim_ids": [
+        "V19"
+      ],
+      "original_url": "https://orpk.org/books/2979",
+      "checked_at": "2026-10-27T10:18:03.164050+00:00",
+      "source_tier": "digital_collection_record",
+      "evidence_note": "ОРПК — библиографический паспорт «Крошек сороконожек», 1925",
+      "final_url": "https://orpk.org/books/2979",
+      "reachability": "unresolved",
+      "validation_status": "unresolved",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "source_id": "R10",
+      "claim_ids": [
+        "N04"
+      ],
+      "original_url": "https://books.google.com/books?id=yxULAQAAMAAJ",
+      "checked_at": "2026-10-27T10:18:03.402539+00:00",
+      "source_tier": "digital_library_preview",
+      "evidence_note": "Google Books — роман «Осторожно, волшебное!», 1981",
+      "final_url": "https://books.google.es/books?id=yxULAQAAMAAJ&redir_esc=y",
+      "http_status": 200,
+      "matched_markers": {
+        "1981": true,
+        "Наталья": true
+      },
+      "response_bytes": 113219,
+      "reachability": "reachable",
+      "validation_status": "verified"
+    },
+    {
+      "source_id": "R11",
+      "claim_ids": [
+        "N124"
+      ],
+      "original_url": "https://pravda37.wordpress.com/wp-content/uploads/2018/08/pravda-1937-258.pdf",
+      "checked_at": "2026-10-27T10:18:04.102743+00:00",
+      "source_tier": "primary_newspaper_scan",
+      "evidence_note": "«Правда», № 258 (7224), 18.09.1937 — скан газетного выпуска",
+      "final_url": "https://pravda37.wordpress.com/wp-content/uploads/2018/08/pravda-1937-258.pdf",
+      "http_status": 200,
+      "matched_markers": {
+        "иркутск": true,
+        "художественн": true,
+        "соколова": true,
+        "1937": true
+      },
+      "response_bytes": 5901056,
+      "reachability": "reachable",
+      "validation_status": "verified",
+      "extraction": "pdftotext"
+    },
+    {
+      "source_id": "R12",
+      "claim_ids": [
+        "N126"
+      ],
+      "original_url": "https://fantlab.ru/edition444168",
+      "checked_at": "2026-10-27T10:20:46.849605+00:00",
+      "source_tier": "secondary_bibliography",
+      "evidence_note": "FantLab — оглавление «Литературной газеты» № 135, 12.11.1960",
+      "final_url": "https://fantlab.ru/edition444168",
+      "http_status": 200,
+      "matched_markers": {
+        "Наталья Соколова": true,
+        "Наше золото": true,
+        "звенящие голоса": true,
+        "стр. 1-2": true
+      },
+      "response_bytes": 46464,
+      "reachability": "reachable",
+      "validation_status": "verified"
+    }
+  ],
+  "previous_attempts": [
+    {
+      "source_id": "R06",
+      "claim_ids": [
+        "V02"
+      ],
+      "original_url": "https://rusneb.ru/catalog/000200_000018_RU_NLR_DIGIT_84434/",
+      "checked_at": "2026-10-26T10:42:48.422953+00:00",
+      "source_tier": "primary_library",
+      "evidence_note": "НЭБ / РНБ — цифровой клавир «Вольного ветра», 1955",
+      "final_url": "https://rusneb.ru/catalog/000200_000018_RU_NLR_DIGIT_84434/",
+      "reachability": "unresolved",
+      "validation_status": "unresolved",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source_id": "R07",
+      "claim_ids": [
+        "V10"
+      ],
+      "original_url": "https://www.culture.ru/live/movies/1518/devichii-perepolokh",
+      "checked_at": "2026-10-26T10:42:48.912151+00:00",
+      "source_tier": "primary_culture_portal",
+      "evidence_note": "Культура.РФ — описание «Девичьего переполоха»",
+      "final_url": "https://www.culture.ru/live/movies/1518/devichii-perepolokh",
+      "reachability": "unresolved",
+      "validation_status": "unresolved",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "source_id": "R08",
+      "claim_ids": [
+        "P01"
+      ],
+      "original_url": "https://www.studmed.ru/sokolov-p-p-gerasimov-yu-n-pomogi-sebe-sam_ed93ec1e4a7.html",
+      "checked_at": "2026-10-26T10:42:49.186204+00:00",
+      "source_tier": "secondary_contents_record",
+      "evidence_note": "Studmed — оглавление и сведения об издании 1991 года",
+      "final_url": "https://www.studmed.ru/captcha",
+      "http_status": 200,
+      "matched_markers": {
+        "Герасимов": false,
+        "238": false
+      },
+      "response_bytes": 4826,
+      "reachability": "reachable",
+      "validation_status": "content_unconfirmed"
+    },
     {
       "source_id": "R01",
       "claim_ids": [
@@ -192,55 +469,28 @@
       "response_bytes": 113219,
       "reachability": "reachable",
       "validation_status": "verified"
-    }
-  ],
-  "previous_attempts": [
-    {
-      "source_id": "R06",
-      "claim_ids": [
-        "V02"
-      ],
-      "original_url": "https://rusneb.ru/catalog/000200_000018_RU_NLR_DIGIT_84434/",
-      "checked_at": "2026-10-26T10:42:48.422953+00:00",
-      "source_tier": "primary_library",
-      "evidence_note": "НЭБ / РНБ — цифровой клавир «Вольного ветра», 1955",
-      "final_url": "https://rusneb.ru/catalog/000200_000018_RU_NLR_DIGIT_84434/",
-      "reachability": "unresolved",
-      "validation_status": "unresolved",
-      "error": "HTTP Error 403: Forbidden"
     },
     {
-      "source_id": "R07",
+      "source_id": "R11",
       "claim_ids": [
-        "V10"
+        "N124"
       ],
-      "original_url": "https://www.culture.ru/live/movies/1518/devichii-perepolokh",
-      "checked_at": "2026-10-26T10:42:48.912151+00:00",
-      "source_tier": "primary_culture_portal",
-      "evidence_note": "Культура.РФ — описание «Девичьего переполоха»",
-      "final_url": "https://www.culture.ru/live/movies/1518/devichii-perepolokh",
-      "reachability": "unresolved",
-      "validation_status": "unresolved",
-      "error": "<urlopen error timed out>"
-    },
-    {
-      "source_id": "R08",
-      "claim_ids": [
-        "P01"
-      ],
-      "original_url": "https://www.studmed.ru/sokolov-p-p-gerasimov-yu-n-pomogi-sebe-sam_ed93ec1e4a7.html",
-      "checked_at": "2026-10-26T10:42:49.186204+00:00",
-      "source_tier": "secondary_contents_record",
-      "evidence_note": "Studmed — оглавление и сведения об издании 1991 года",
-      "final_url": "https://www.studmed.ru/captcha",
+      "original_url": "https://pravda37.wordpress.com/wp-content/uploads/2018/08/pravda-1937-258.pdf",
+      "checked_at": "2026-10-27T10:07:07.727165+00:00",
+      "source_tier": "primary_newspaper_scan",
+      "evidence_note": "«Правда», № 258 (7224), 18.09.1937 — скан газетного выпуска",
+      "final_url": "https://pravda37.wordpress.com/wp-content/uploads/2018/08/pravda-1937-258.pdf",
       "http_status": 200,
       "matched_markers": {
-        "Герасимов": false,
-        "238": false
+        "иркутск": true,
+        "художественн": true,
+        "соколова": true,
+        "1937": true
       },
-      "response_bytes": 4826,
+      "response_bytes": 5901056,
       "reachability": "reachable",
-      "validation_status": "content_unconfirmed"
+      "validation_status": "verified",
+      "extraction": "pdftotext"
     }
   ]
 }
