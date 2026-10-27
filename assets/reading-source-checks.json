@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-10-27T10:20:47.347827+00:00",
-  "total": 12,
-  "verified": 11,
+  "checked_at": "2026-10-27T10:47:19.382723+00:00",
+  "total": 13,
+  "verified": 13,
   "checks": [
     {
       "source_id": "R01",
@@ -161,13 +161,18 @@
         "V19"
       ],
       "original_url": "https://orpk.org/books/2979",
-      "checked_at": "2026-10-27T10:18:03.164050+00:00",
+      "checked_at": "2026-10-27T10:47:16.656851+00:00",
       "source_tier": "digital_collection_record",
       "evidence_note": "ОРПК — библиографический паспорт «Крошек сороконожек», 1925",
       "final_url": "https://orpk.org/books/2979",
-      "reachability": "unresolved",
-      "validation_status": "unresolved",
-      "error": "<urlopen error timed out>"
+      "http_status": 200,
+      "matched_markers": {
+        "Типот": true,
+        "1925": true
+      },
+      "response_bytes": 110103,
+      "reachability": "reachable",
+      "validation_status": "verified"
     },
     {
       "source_id": "R10",
@@ -228,6 +233,24 @@
         "стр. 1-2": true
       },
       "response_bytes": 46464,
+      "reachability": "reachable",
+      "validation_status": "verified"
+    },
+    {
+      "source_id": "B40",
+      "claim_ids": [
+        "N126"
+      ],
+      "original_url": "https://electro.nekrasovka.ru/books/6283678",
+      "checked_at": "2026-10-27T10:47:16.657174+00:00",
+      "source_tier": "primary_library_catalog",
+      "evidence_note": "Электронекрасовка — карточка выпуска № 135 (4260), 12.11.1960",
+      "final_url": "https://electro.nekrasovka.ru/books/6283678",
+      "http_status": 200,
+      "matched_markers": {
+        "Литературная газета, 12 ноября, 1960": true
+      },
+      "response_bytes": 178317,
       "reachability": "reachable",
       "validation_status": "verified"
     }
@@ -491,6 +514,38 @@
       "reachability": "reachable",
       "validation_status": "verified",
       "extraction": "pdftotext"
+    },
+    {
+      "source_id": "R09",
+      "claim_ids": [
+        "V19"
+      ],
+      "original_url": "https://orpk.org/books/2979",
+      "checked_at": "2026-10-27T10:18:03.164050+00:00",
+      "source_tier": "digital_collection_record",
+      "evidence_note": "ОРПК — библиографический паспорт «Крошек сороконожек», 1925",
+      "final_url": "https://orpk.org/books/2979",
+      "reachability": "unresolved",
+      "validation_status": "unresolved",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "source_id": "B40",
+      "claim_ids": [
+        "N126"
+      ],
+      "original_url": "https://electro.nekrasovka.ru/books/6283678",
+      "checked_at": "2026-10-27T10:46:20.550219+00:00",
+      "source_tier": "primary_library_catalog",
+      "evidence_note": "Электронекрасовка — карточка выпуска № 135 (4260), 12.11.1960",
+      "final_url": "https://electro.nekrasovka.ru/books/6283678",
+      "http_status": 200,
+      "matched_markers": {
+        "Литературная газета, 12 ноября, 1960": true
+      },
+      "response_bytes": 178317,
+      "reachability": "reachable",
+      "validation_status": "verified"
     }
   ]
 }
